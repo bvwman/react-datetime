@@ -8,6 +8,7 @@ var assign = require('object-assign'),
 	CalendarContainer = require('./src/CalendarContainer')
 	;
 require('moment/locale/nl-be');
+moment.locale('nl-be');
 
 var viewModes = Object.freeze({
 	YEARS: 'years',
