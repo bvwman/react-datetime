@@ -2748,7 +2748,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var React = __webpack_require__(12),
 		createClass = __webpack_require__(11),
-		moment = __webpack_require__(16),
+		moment = __webpack_require__(16).default,
 		onClickOutside = __webpack_require__(19).default
 		;
 

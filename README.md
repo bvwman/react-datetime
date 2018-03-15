@@ -74,7 +74,7 @@ render: function() {
 Different language and date formats are supported by react-datetime. React uses [Moment.js](http://momentjs.com/) to format the dates, and the easiest way of changing the language of the calendar is [changing the Moment.js locale](http://momentjs.com/docs/#/i18n/changing-locale/).
 
 ```js
-var moment = require('moment');
+var moment = require('moment').default;
 require('moment/locale/fr');
 // Now react-datetime will be in french
 ```
