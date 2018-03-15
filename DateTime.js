@@ -7,6 +7,7 @@ var assign = require('object-assign'),
 	React = require('react'),
 	CalendarContainer = require('./src/CalendarContainer')
 	;
+require('moment/locale/nl-be');
 
 var viewModes = Object.freeze({
 	YEARS: 'years',
